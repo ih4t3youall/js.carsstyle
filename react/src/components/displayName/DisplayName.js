@@ -26,7 +26,6 @@ class DisplayName extends Component {
                 {this.state.image.map((imagen) => {
               return (
                   <div>
-                      <h1>{imagen}</h1>
                   <DisplayImageFromServer name={imagen}/>
                   </div>
             )})}

@@ -26,11 +26,7 @@ function App() {
         <h1> Hola soy martin!</h1>
      
      <section className="componentes">
-       <MiComponente/>
-      <DisplayName />
-       <DisplayImageFromServer/>
-       <DisplayImageFromServer/>
-       <DisplayImageFromServer/>
+    <DisplayName />
      </section>
       </header>
     </div>

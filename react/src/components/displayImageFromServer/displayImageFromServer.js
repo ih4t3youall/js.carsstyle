@@ -9,7 +9,8 @@ class DisplayImageFromServer extends Component {
   componentDidMount() {
     axios
       .get(
-        'http://127.0.0.1:5000/api/get_image/'+this.props.name,
+        'http://127.0.0.1:5000/api/get_image?imageName='+this.props.name,
+        //'http://127.0.0.1:5000/api/get_image',
         { responseType: 'arraybuffer' },
       )
       .then(response => {
